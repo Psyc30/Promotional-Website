@@ -5,66 +5,94 @@
 
 body{
     width: 100%;
-    height: 100vh;
-    background-color: aqua;
+    height: fit-content;
+    background: #727272;
+background: -webkit-linear-gradient(360deg, #727272 0%, #d6d6d6 50%, #d6d6d6 100%);
+background: linear-gradient(360deg, #727272 0%, #d6d6d6 50%, #d6d6d6 100%);
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
 }
 
 form{
     display: block;
     width: 300px;
-    height: 400px;
-    margin: 100px auto;
-    background-color: red;
-    border-radius: 5px;
+    height: 380px;
+    margin: 50px auto 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
 }
 
 h1{
     text-align: center;
-    padding: 20px;
+    margin: 0 20px;
+    padding: 30px 20px 10px ;
+    border-radius: 0 0 20px 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
 }
 
 h2{
     text-align: center;
+    margin: 15px 0 15px 0;
 }
 
 input{
     display: block;
-    width: 200px;
-    margin: 5px auto;
+    width: 220px;
+    text-indent: 5px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    outline: none;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
 }
 
-input[type="checkbox"]{
-    width: 100px;
-    display: inline-block;
-    margin: 0 auto;
+input:hover{
+    transform: scale(1.1);
+    border-bottom:2px solid #474bff;
 }
 
 button{
     display: block;
-    width: 70px;
-    margin: 20px auto;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px auto;
+    border-radius: 40px 0 40px 0;
+    border: none;
+    background: #474bff;
+    background: -webkit-linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
 }
 
-.alternative{
-    display: flex;
+footer{
     width: 100%;
-    margin: 0 auto;
+    height: 100px;
+    border-top: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
-.line1{
-    height: 3px;
-    width: 50%;
-    margin: 10px 10px 10px 40px;
-    background-color: blue;
+.footer-info{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
 }
 
-.line2{
-    height: 3px;
-    width: 50%;
-    margin: 10px 40px 10px 10px;
-    background-color: blue;
+.copyright, .terms-policy a, p{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.icon-container{ 
-    display: flex;
+.terms-policy{
+    margin: 10px;
 }
+
