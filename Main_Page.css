@@ -51,25 +51,6 @@ nav a {
     font-weight: bold;
 }
 
-
-.loginbtn{
-    margin: 7px 25px;
-    float: right;
-    padding: 0 20px;
-    background: #474bff;
-    background: -webkit-linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
-    background: linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
-    border-radius: 5px;
-    height: 30px;
-}
-
-.loginbtn a{
-    text-align: center;
-    margin: 5px 0 0 0 ;
-    color: white;
-    font-weight: bold;
-}
-
 .header{
     background: #c7c7c7;
     background: -webkit-linear-gradient(0deg, #c7c7c7 0%, #ffffff 50%, #ffffff 100%);
@@ -174,7 +155,7 @@ p{
 
 main{
     display: inline-flex;
-    width: 100%;
+    width: 100%;  
 }
 
 .container{
@@ -188,7 +169,7 @@ label{
     font-weight:bold;
 }
 
-.rog, .tuf, .predator, .legion{
+.rog, .predator, .legion{
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -222,6 +203,7 @@ label{
     height: 30px;
     padding-top: 10px;
     border-radius: 5px;
+    font-weight: bold;
     background: #474bff;
     background: -webkit-linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
     background: linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
@@ -295,7 +277,6 @@ footer{
 }
 
 .about-us-container{
-    margin: 50px 0 0 0;
     width: 100%;
     
 
