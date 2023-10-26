@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100%;
     height: fit-content;
@@ -19,37 +23,34 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
+    padding: 10px 0 0 0;
     border-bottom: 2px solid black;
     background-color: rgb(255, 255, 255);
 }
 
-ul{
+nav ul {
     list-style: none;
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    height: 45px;
-    overflow: hidden;
+    text-align: center;
+    height: 30px;
 }
 
-li{
-    float: left;
+nav li {
+    display: inline;
+    margin: 20px 0 0 0;
     background: #474bff;
+    padding: 10px 15px; 
     background: -webkit-linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
     background: linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
-    height: 30px;
-    width: 80px;
-    border-radius: 5px;
-    margin: 7px 1px;
 }
 
-li a{
-    display: block;
-    margin: 5px 0 0 0; 
-    text-align: center;
+nav a {
+    padding: 10px 10px; 
+    margin-top: 20px;
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-weight: bold;
 }
+
 
 .loginbtn{
     margin: 7px 25px;
@@ -70,19 +71,35 @@ li a{
 }
 
 .header{
-    background: #000000;
-    background: -webkit-linear-gradient(180deg, #000000 0%, #000000 50%, #370800 100%);
-    background: linear-gradient(180deg, #000000 0%, #000000 50%, #370800 100%);
+    background: #c7c7c7;
+    background: -webkit-linear-gradient(0deg, #c7c7c7 0%, #ffffff 50%, #ffffff 100%);
+    background: linear-gradient(0deg, #c7c7c7 0%, #ffffff 50%, #ffffff 100%);
     width: 100%;
     height: 200px;
     margin: 0;
+    border-bottom: 2px solid black;
     text-align: center;
     color: white;   
+}
+
+.para{
+    background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
 }
 
 h1{
     padding-top: 40px;
     font-size: 60px;
+    background: #474bff;
+    background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2{
@@ -94,21 +111,21 @@ h2{
 }
 
 .asus-brand{
-    color: red;
-    text-shadow: 1px 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(221, 9, 9);
     background-color: black;
     
 }
 
 .acer-brand{
-    color: green;
-    text-shadow: 1px 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(231, 227, 0);
     background-color: black;
 }
 
 .lenovo-brand{
     color: white;
-    text-shadow: 1px 1px rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(73, 44, 235);
     background-color: black;
 }
 
@@ -119,10 +136,10 @@ h2{
     width:260px;
     height: 30px;
     font-size: 25px;
-    color: red;
+    color: rgb(0, 0, 0);
     border-radius:  0 0 30px 30px;
     border-bottom: 2px solid black;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 1px 1px rgb(255, 0, 0);
 }
 
 .predator-title{
@@ -132,10 +149,10 @@ h2{
     width:260px;
     height: 30px;
     font-size: 25px;
-    color:rgb(255, 208, 0);
+    color:rgb(0, 0, 0);
     border-radius:  0 0 30px 30px;
     border-bottom: 2px solid black;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px rgb(249, 253, 1);
 }
 
 .legion-title{
@@ -145,10 +162,10 @@ h2{
     width:260px;
     height: 30px;
     font-size: 25px;
-    color: rgb(25, 0, 255);
+    color: rgb(0, 0, 0);
     border-radius:  0 0 30px 30px;
     border-bottom: 2px solid black;
-    text-shadow: 2px 2px 1px black
+    text-shadow: 2px 2px 1px rgb(0, 4, 247)
 }
 
 p{
@@ -275,4 +292,56 @@ footer{
 
 .terms-policy{
     margin: 10px;
+}
+
+.about-us-container{
+    margin: 50px 0 0 0;
+    width: 100%;
+    
+
+}
+.about-us{
+    display: block;
+    margin: 0 auto 50px;
+    width: 80px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: width 1s ease-in-out, height 1s ease-in-out, background-color 1s ease-in-out;
+}
+
+.about-us:hover{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height:230px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.about-us-container button{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    background: #474bff;
+    background: -webkit-linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 10px 0;
+}
+
+.about-us-h1{
+    margin: -30px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.about-us-para{
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    text-align: justify;
 }
