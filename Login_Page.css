@@ -116,6 +116,10 @@ footer{
 
 @media only screen and (max-width: 600px){
 
+    .header{
+        height: 110px;
+    }
+
     .header-h1, .header-para{
         color: white;
         text-align: center;
