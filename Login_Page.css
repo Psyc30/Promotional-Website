@@ -114,6 +114,7 @@ footer{
     margin: 10px;
 }
 
+/*Resposiv For Mobile*/
 @media only screen and (max-width: 600px){
 
     .header{
