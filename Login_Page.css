@@ -31,8 +31,7 @@ body{
     margin: 5px auto;
     width: 80%;
     text-align: center;
-    font-size: 17px;
-    
+    font-size: 17px; 
 }
 
 form{
@@ -82,6 +81,7 @@ button{
     height: 35px;
     font-size: 20px;
     font-weight: bold;
+    color: white;
     margin: 40px auto;
     border-radius: 40px 0 40px 0;
     border: none;
@@ -114,3 +114,22 @@ footer{
     margin: 10px;
 }
 
+@media only screen and (max-width: 600px){
+
+    .header-h1, .header-para{
+        color: white;
+        text-align: center;
+    }
+    
+    .header-h1{
+        padding-top: 10px;
+    }
+    
+    .header-para{
+        display: block;
+        margin: 5px auto;
+        width: 90%;
+        text-align: center;
+        font-size: 14px; 
+    }
+}

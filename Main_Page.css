@@ -213,6 +213,24 @@ label{
     border-radius: 20px 3px;
 }
 
+#specsbtn-last{
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 10px;
+    width: 250px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #474bff;
+    background: -webkit-linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(95deg, #474bff 0%, #bc48ff 100%);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px 3px;
+}
+
 .price{
     margin-top: 10px;
     font-size: 15px;
@@ -325,4 +343,52 @@ footer{
     margin: 10px auto;
     width: 80%;
     text-align: justify;
+}
+/*Responsiveness*/
+@media only screen and (max-width: 600px){
+    
+    .header{
+        height: 100px;
+    }
+
+    h1{
+        padding-top: 15px;
+        font-size: 32px;
+    }
+    .para{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        
+    }
+
+    label{
+        font-size: 12px;
+    }
+
+    .card{
+        width: 110px;
+        height: 95px;
+        margin: 10px 10px;
+    }
+
+    img{
+        width: 100px;
+        height: 80px;
+    }
+
+    .about-us:hover{
+        width: 340px;
+        height:280px;
+    }
+
+    .about-us-h1{
+        margin: 10px 0 0 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .about-us-para{
+        font-size: 14px;
+    }
 }

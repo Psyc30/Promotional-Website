@@ -73,9 +73,9 @@ h2{
 
 .card{
     display: inline-block;
-    width: 400px;
+    width: 300px;
     height: 400px;
-    margin: 20px 40px;
+    margin: 20px 60px;
     padding: 15px;
     background-color: rgb(255, 255, 255);
     border-radius:0;
@@ -148,4 +148,36 @@ footer{
 
 .terms-policy{
     margin: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        display: inline-block;
+        width: 220px;
+        height: 350px;
+        margin: 20px auto;
+    }
+
+    img{
+        width: 170px;
+        height: 140px;
+        min-width: auto;
+        margin: 0 auto;
+    }
+
+    .laptop-specs{
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .specs{
+        
+        width: 300px;
+        height: 40px; 
+        font-size: 25px;
+        
+    }
+    
 }
