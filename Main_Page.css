@@ -24,7 +24,7 @@ nav{
     top: 0;
     z-index: 1;
     padding: 10px 0 0 0;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     background-color: rgb(255, 255, 255);
 }
 
@@ -58,7 +58,7 @@ nav a {
     width: 100%;
     height: 200px;
     margin: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
     color: white;   
 }
@@ -296,9 +296,8 @@ footer{
 
 .about-us-container{
     width: 100%;
-    
-
 }
+
 .about-us{
     display: block;
     margin: 0 auto 50px;
@@ -345,6 +344,7 @@ footer{
     width: 80%;
     text-align: justify;
 }
+
 /*Responsive For Mobile*/
 @media only screen and (max-width: 600px){
     
@@ -360,7 +360,6 @@ footer{
         text-align: center;
         margin-top: 10px;
         font-size: 15px;
-        
     }
 
     label{
@@ -371,6 +370,10 @@ footer{
         width: 110px;
         height: 95px;
         margin: 10px 10px;
+    }
+
+    .card:hover{
+        height: 200px;
     }
 
     img{
